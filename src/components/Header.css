@@ -1,0 +1,40 @@
+.main{
+   
+    
+}
+
+.first_main{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    /* gap: 1rem; */
+    
+}
+
+.file_1{
+    font-size: 25px;
+    font-family: 'Passion One', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    flex-basis: 800px;
+    
+}
+
+.file_2{
+    /* background-color: red; */
+    flex-basis: 600px;
+     
+}
+
+.b1{
+    height: 1.5rem;
+}
+
+.search{
+    flex-basis: 350px;
+}
+
+.pfp{
+    flex-basis: 100px;
+  
+}
