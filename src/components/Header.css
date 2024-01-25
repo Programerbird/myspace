@@ -1,12 +1,13 @@
 .main{
-   
+   background-color: rgb(191, 178, 178);
+    
     
 }
 
 .first_main{
     /* background-color: red; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 15px;
     /* gap: 1rem; */
     
@@ -16,25 +17,44 @@
     font-size: 25px;
     font-family: 'Passion One', sans-serif;
     font-family: 'Zilla Slab', serif;
-    flex-basis: 800px;
+    flex-basis: 200px;
+    padding-left: 2px;
     
 }
 
 .file_2{
     /* background-color: red; */
-    flex-basis: 600px;
+    flex-basis: 400px;
+    padding-left: 10px;
+    /* display: flex; */
+    gap: 5px;
+    
+    
+    
      
 }
 
 .b1{
     height: 1.5rem;
+    
+    
 }
 
 .search{
-    flex-basis: 350px;
+    display: flex;
+    flex-basis: 870px;
+    height: 30px;
+    justify-content: center;
 }
 
 .pfp{
-    flex-basis: 100px;
-  
+   position: relative;
+   top: -10px;
+}
+
+
+
+.pfp:hover{
+    
+    cursor: crosshair;
 }
