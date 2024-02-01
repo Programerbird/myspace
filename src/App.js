@@ -5,13 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="main">
-      <Header></Header>
-      <Body></Body>
+      <Header/>
+      
       <Router>
         <Routes>
-          <Route>
-            
-          </Route>
+          <Route exact path='/' element={<Body/>}/>   
         </Routes>
       </Router>
     </div>

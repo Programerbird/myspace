@@ -4,7 +4,7 @@ import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import pfp from '../image/pic.jpg'
 import Button from '@mui/material/Button';
-import SearchIcon from '@mui/icons-material/Search';
+
 function Header() {
   return (
     <div className='main' >
@@ -16,6 +16,7 @@ function Header() {
             <Button className='b1' variant="contained">Video</Button>
             <Button className='b1' variant="contained">Video</Button>
             <Button className='b1' variant="contained">Video</Button>
+            
           </div>
         <div className='search' >  
         <input  type="text" placeholder="Search.."  />
