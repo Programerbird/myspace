@@ -16,6 +16,7 @@ function Header() {
             <Button className='b1' variant="contained">Video</Button>
             <Button className='b1' variant="contained">Video</Button>
             <Button className='b1' variant="contained">Video</Button>
+            <Button className='b1' variant="contained">Video</Button>
             
           </div>
         <div className='search' >  
