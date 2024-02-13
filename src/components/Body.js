@@ -1,9 +1,14 @@
 import React from 'react'
-
+import './Body.css'
+import pfp from '../image/pic.jpg'
 function Body() {
   return (
-    <div>
-      <h1>hkkljjjjjjjjjjjjjjjjjjjjjjjjjj</h1>
+    <div className='bmain' >
+      <div className='body' >
+        <h1>Monica Space</h1>
+        <img className='mpic' src={pfp}  width={300} />
+        <h4 className='wname' >Women 20 year old</h4>
+      </div>
     </div>
   )
 }

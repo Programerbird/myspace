@@ -4,7 +4,7 @@ import Body from '../src/components/Body'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="main">
+    <div className="app">
       <Header/>
       
       <Router>

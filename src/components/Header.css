@@ -1,5 +1,5 @@
 .main{
-   background-color: rgb(191, 178, 178);
+   background-color: rgb(56, 49, 49);
     
     
 }
@@ -14,11 +14,12 @@
 }
 
 .file_1{
+    color: aliceblue;
     font-size: 25px;
     font-family: 'Passion One', sans-serif;
     font-family: 'Zilla Slab', serif;
     flex-basis: 200px;
-    padding-left: 2px;
+    padding-left: 4px;
     
 }
 
