@@ -6,6 +6,13 @@
     /* background-color: red; */
 }
 
+.frame{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .mpic{
     padding-left: 5px;
     background-color: aqua;

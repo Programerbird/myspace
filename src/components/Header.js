@@ -9,12 +9,12 @@ function Header() {
   return (
     <div className='main' >
       <div className='first_main' >
-        <div className='file_1' >MySpace</div>
+        <div className='file_1' >MiAnimu</div>
           <div className='file_2'>
             <Button className='b1' variant="contained">Home</Button>
             <Button className='b1' variant="contained">Music</Button>
             <Button className='b1' variant="contained">Video</Button>
-    
+            <Button className='b1' variant="contained">Video</Button>
             
           </div>
         <div className='search' >  
